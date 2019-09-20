@@ -105,7 +105,7 @@ app.put("/blogs/:id", (req, res) => {
 			console.log(err);
 			res.redirect("/blogs");
 		} else {
-			// redirect to index
+			// redirect to show page
 			res.redirect("/blogs/" + req.params.id);
 		}
 	});
